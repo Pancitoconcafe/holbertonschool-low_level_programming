@@ -5,16 +5,15 @@
  *
  * Return: Always 0 (Success)
  */
-int main(void)
+int main()
 {
-		int integerType;
-		    float floatType;
-		        double doubleType;
-			    char charType;
+	    int integerType;
+	        float floatType;
+		    double doubleType;
+		        char charType;
 
-			        // Sizeof operator is used to evaluate the size of a variable
-				//     printf("Size of int: %ld bytes\n",sizeof(integerType));
-				//         printf("Size of float: %ld bytes\n",sizeof(floatType));
-				//             printf("Size of double: %ld bytes\n",sizeof(doubleType));
-				
+			    // Sizeof operator is used to evaluate the size of a variable
+			    //     printf("Size of 32bit machine: %ld bytes\n",sizeof(integerType));
+			    //         printf("Size of 64bit machine: %ld bytes\n",sizeof(integerType));
+			    //                    return 0;                  
 }
