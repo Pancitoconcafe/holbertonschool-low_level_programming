@@ -8,16 +8,19 @@
  */
 int main(void)
 {
-	int number;
+	int N;
 
-	for (number = 0 ; number < 10; number++)
+	for (N = '0'; N <= '9'; N++)
 	{
-
-		printf("%d", number);
-		if (number == 9)
+		putchar(N);
+		if (N != '9')
 		{
-			printf("\n");
+			putchar(',');
+			putchar(' ');
 		}
 	}
+
+	putchar('\n');
+
 	return (0);
 }
