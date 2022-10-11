@@ -8,24 +8,17 @@
  */
 int main(void)
 {
-	char Main;
-	char Mayus;
+char letter;
+int number;
 
-	for (Main = 'a'; Main <= 'z'; Main++)
-	{
-		putchar(Main);
-		if (Main == 'z')
-		{
-			for (Mayus = 'A'; Mayus <= 'Z'; Mayus++)
-			{
-				putchar(Mayus);
-				if (Mayus == 'Z')
-				{
-					putchar('\n');
-				}
-			}
-		}
-
-	}
-	return (0);
+for (number = '0'; number <= '9'; number++)
+{
+putchar(number);
+}
+for (letter = 'a'; letter <= 'f'; letter++)
+{
+putchar(letter);
+}
+printf("\n");}
+return (0);
 }
