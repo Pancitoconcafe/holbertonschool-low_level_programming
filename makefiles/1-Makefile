@@ -1,4 +1,3 @@
-@@ -0,0 +1,4 @@
 CC = gcc
 SRC = main.c school.c
 all: main.c school.c
