@@ -2,10 +2,10 @@
 #include <stdio.h>
 
 /**
- *_isdigit - check the code.
- *@c: variable to check
- * Return: Always 0.
- */
+*_isdigit - check the code.
+*@c: variable to check
+* Return: Always 0.
+*/
 int _isdigit(int c)
 {
 	if (c >= '0' && c <= '9')

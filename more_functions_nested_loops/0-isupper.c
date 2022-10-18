@@ -2,10 +2,10 @@
 #include <stdio.h>
 
 /**
- *_isupper - check the code.
- *@c: variable to check
- * Return: Always 0.
- */
+*_isupper - check the code.
+*@c: variable to check
+* Return: Always 0.
+*/
 int _isupper(int c)
 {
 	if (c >= 'A' && c <= 'Z')
