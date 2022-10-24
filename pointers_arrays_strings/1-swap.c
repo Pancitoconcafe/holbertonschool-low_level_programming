@@ -1,17 +1,15 @@
-#include "main.h"
 #include <stdio.h>
+#include "main.h"
+
 /**
- * main - check the code
- *
+ * swap_int - check the code
+ *@a: is the pointer
+ *@b: is the pointer
  * Return: Always 0.
  */
 void swap_int(int *a, int *b)
 {
-	int a;
-	int b;
-
-	printf("a=%i, b=%d\n", a, b);
-	swap_int(&a, &b);
-	printf("a=%i, b=%d\n", a, b);
-	return (0);
+	int i = *a;
+	*a = *b;
+	*b = i;
 }
