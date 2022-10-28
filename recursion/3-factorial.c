@@ -8,13 +8,13 @@
  */
 int factorial(int n)
 {
-	if
+	if(n==0 || n==1)
 	{
-		(n==0 || n=1)
+		return(1);
 	}
-	else
+	else if (n < 0)
 	{
-		n = (n - 1);
+		return (-1)
 	}
-	return n;
+	return (n* factorial(n - 1));
 }
