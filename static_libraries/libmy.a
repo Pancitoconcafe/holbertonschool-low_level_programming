@@ -1,0 +1,2 @@
+ar -t libmy.a 0-isupper.o 
+
